@@ -10,6 +10,15 @@ namespace name
 
 如using  std::cin; 
 using std::endl;
+其中 using 为编译指令
 
 #C语言函数库在C++中的使用
 数学库 C语言中为math.h，C++中为cmath,但亦可使用math.h 
+
+C语言的函数库在C++使用时，通常是
+
+#include <cmath> 或者 #include<math.h>的形式
+
+# C++常用输入输出
+##cin和cout
+cin
