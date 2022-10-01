@@ -15,7 +15,10 @@ int main()
     cout << "Enter the number of minutes:";
     cin >> minutes;
     time(hours, minutes);
-
+    //cin.get();
+    //cin.get();
+    //其中两个cin.get()可用于直接运行 程序(.exe)进行停留；
+    //不使用的话直接运行程序基本算是直接闪退。
     return 0;
 }
 
